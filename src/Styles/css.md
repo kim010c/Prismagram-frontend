@@ -16,3 +16,16 @@
 - align-items : 속성은 플렉스 요소의 수직 방향 정렬 방식을 설정합니다.
 
 - justify-content : 속성은 플렉스 요소의 수평 방향 정렬 방식을 설정합니다.
+
+- font-family : 속성은 선택된 요소에 우선 순위가 지정된 font family 이름과 generic family 이름을 지정할 수 있게 해줍니다.(글꼴 설정)
+
+- font-weight : CSS 속성은 폰트(font)의 가중치(weight)나 굵기(boldness)를 명시한다. 몇몇 폰트들은 normal 나 bold 일 때만 가능하다.
+
+- text-transform : 대문자 혹은 소문자로 바꾸는 속성
+
+> none : 입력된 그대로 출력합니다.
+> capitalize : 단어의 첫번째 글자를 대문자로 바꿉니다.
+> uppercase : 모든 글자를 대문자로 바꿉니다.
+> lowercase : 모든 글자를 소문자로 바꿉니다.
+> initial : 기본값으로 설정합니다.
+> inherit : 부모 요소의 속성값을 상속받습니다.
