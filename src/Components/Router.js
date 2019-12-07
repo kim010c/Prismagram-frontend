@@ -18,7 +18,10 @@ const LoggedOutRoutes = () => (
 
 const AppRouter = ({ isLoggedIn }) => (
   <HashRouter>
-    <Switch>{isLoggedIn ? <LoggedInRoutes /> : <LoggedOutRoutes />}</Switch>
+    <Switch>
+      {isLoggedIn ? <LoggedInRoutes /> : <LoggedOutRoutes />}
+      {/* <Route exact path="/Confim" component={Confirm} /> */}
+    </Switch>
   </HashRouter>
 );
 
