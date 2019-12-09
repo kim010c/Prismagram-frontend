@@ -33,7 +33,7 @@ export default () => {
         <GlobalStyles />
         <HashRouter>
           <>
-            <Header />
+            {isLoggedIn && <Header />}
             <Wrapper>
               <Routes isLoggedIn={isLoggedIn} />
               <Footer />

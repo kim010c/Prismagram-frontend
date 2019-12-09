@@ -22,13 +22,8 @@ const LoggedOutRoutes = () => (
   </Switch>
 );
 
-const AppRouter = ({ isLoggedIn }) => (
-  <Switch>
-    const AppRouter = ({isLoggedIn}) => isLoggedIn ? <LoggedInRoutes /> :{" "}
-    <LoggedOutRoutes />;
-    {/* <Route exact path="/Confim" component={Confirm} /> */}
-  </Switch>
-);
+const AppRouter = ({ isLoggedIn }) =>
+  isLoggedIn ? <LoggedInRoutes /> : <LoggedOutRoutes />;
 
 AppRouter.propTypes = {
   isLoggedIn: PropTypes.bool.isRequired

@@ -95,7 +95,12 @@ export default () => {
             throw Error();
           }
         } catch {
-          toast.error("Cant confirm secret,check again");
+          toast.error(
+            <div>
+              보안키를 잘못 입력하셨습니다. <br />
+              한번더 확인하여 주세요
+            </div>
+          );
         }
       }
     }
