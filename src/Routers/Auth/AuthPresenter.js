@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Input from "../../Components/Input";
-import Helmet from "react-helmet";
+import { Helmet } from "rl-react-helmet";
 import Button from "../../Components/Button";
 
 const Wrapper = styled.div`
