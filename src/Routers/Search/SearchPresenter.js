@@ -5,6 +5,7 @@ import FatText from "../../Components/FatText";
 import Loader from "../../Components/Loader";
 import UserCard from "../../Components/UserCard";
 import SquarePost from "../../Components/SquarePost";
+import { Link } from "react-router-dom";
 
 const Wrapper = styled.div`
   height: 50vh;
