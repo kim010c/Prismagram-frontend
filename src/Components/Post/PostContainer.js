@@ -38,7 +38,8 @@ const PostContainer = ({
   };
   useEffect(() => {
     slide();
-  }, [currentItem]);
+  });
+  // }, [currentItem]);
   const toggleLike = () => {
     toggleLikeMutation();
     if (isLikedS === true) {

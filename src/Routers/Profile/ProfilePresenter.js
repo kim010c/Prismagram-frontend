@@ -7,7 +7,6 @@ import FatText from "../../Components/FatText";
 import FollowButton from "../../Components/FollowButton";
 import SquarePost from "../../Components/SquarePost";
 import Button from "../../Components/Button";
-import { white } from "ansi-colors";
 
 const Wrapper = styled.div`
   min-height: 100vh;
@@ -100,7 +99,7 @@ export default ({ loading, data, logOut }) => {
             <UsernameRow>
               <Username>{username}</Username>{" "}
               {isSelf ? (
-                <Button onClick={logOut} text="Log Out" />
+                <logOutButton onClick={logOut} text="Log Out" />
               ) : (
                 <FollowButton isFollowing={isFollowing} id={id} />
               )}
